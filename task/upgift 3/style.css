@@ -1,0 +1,87 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0%;
+}
+
+span {
+    font-weight: bold;
+}
+
+header {
+
+    padding: 0.5rem;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    background-color: cornflowerblue;
+    color: white;
+
+}
+
+nav {}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+a.nav-link, a.nav-link:visited{
+    color: orange;
+
+    text-decoration: none;
+    text-underline-offset: 0.2rem;
+}
+
+a.nav-link:hover{
+    text-underline-position: under;
+    text-decoration: underline;
+    color: rgb(220, 184, 118);
+}
+
+.nav-link:active{
+    color: rgb(139, 97, 17);
+}
+
+footer{
+    padding: 1rem;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    background-color: rgb(48, 46, 46);
+    color: white;
+}
+
+a.bookmark-link, a.bookmark-link:visited{
+    color: white;
+
+    text-decoration: none;
+    text-underline-offset: 0.2rem;
+}
+
+a.bookmark-link:hover{
+    text-underline-position: under;
+    text-decoration: underline;
+    color: rgb(220, 184, 118);
+}
+
+a.bookmark-link:active{
+    color: yellow;
+}
+
+a.absolute-link{k
+    font-size: large;
+    text-underline-offset: 0.1rem;
+    
+}
